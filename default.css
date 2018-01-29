@@ -1,0 +1,41 @@
+* , *::before , *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+  }
+  .code-wrapper{
+      flex:1;
+      height:50%;
+      padding:16px;
+  }
+  .preview-wrapper{
+      flex:1;
+      height:50%;
+  }
+  #code{
+      height:100%;
+      overflow: hidden;
+  }
+  .speed{
+      position:fixed;
+      right:32px;
+      top:32px;
+  }
+  .speed>div.active{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+  }
+  .speed>div{
+      margin:16px 0;
+      padding:5px;
+      background:#999ba3;
+      border-radius:5px;
+  }
+  
+  
+  
+
