@@ -173,6 +173,6 @@
     }
     /*~~~画完啦~~~*/
     `
-    writeCode('',code,)
+    writeCode('',code)
     
 }.call()
