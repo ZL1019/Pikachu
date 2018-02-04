@@ -20,7 +20,7 @@
     function writeCode(prefix,code,fn){
         let n = 0
         let container = document.querySelector('#code')
-        let htmlStyeTag = document.querySelector('#styleTag')
+        let htmlStyleTag = document.querySelector('#styleTag')
         setTimeout(function run(){
             n += 1
             container.innerHTML = code.slice(0,n)
