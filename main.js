@@ -20,11 +20,11 @@
     function writeCode(prefix,code,fn){
         let n = 0
         let container = document.querySelector('#code')
-        let styeTag = document.querySelector('#styleTag')
+        let htmlStyeTag = document.querySelector('#styleTag')
         setTimeout(function run(){
             n += 1
             container.innerHTML = code.slice(0,n)
-            styleTag.innerHTML = code.slice(0,n) 
+            htmlStyleTag.innerHTML = code.slice(0,n) 
             container.scrollTop = container.scrollHeight
             if(n<code.length){
                 setTimeout(run,sudu)
